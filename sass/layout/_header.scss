@@ -1,0 +1,44 @@
+header {
+  background-color: #ff69b4;
+  height: 12.9vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      color: #e4eef1;
+      font-size: 1.75rem;
+    }
+  }
+
+  nav {
+    width: 75vw;
+    height: 7vh;
+
+    ul {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      li a {
+        color: #e4eef1;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.75rem;
+        line-height: 2.38rem;
+        transition: transform 0.2s, color 0, 2s;
+
+        &:hover {
+          transform: scale(1.5);
+          color: #000;
+        }
+      }
+    }
+  }
+}
