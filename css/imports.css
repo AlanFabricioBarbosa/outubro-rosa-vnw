@@ -146,7 +146,8 @@ header div {
 }
 header div h1 {
   color: #e4eef1;
-  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-size: clamp(1rem, 2vw, 1.75rem);
 }
 header nav {
   width: 75vw;
@@ -162,13 +163,25 @@ header nav ul li a {
   color: #e4eef1;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.75rem;
+  font-size: clamp(1rem, 2vw, 1.75rem);
   line-height: 2.38rem;
-  transition: transform 0.2s, color 0, 2s;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
 }
 header nav ul li a:hover {
-  transform: scale(1.5);
-  color: #000;
+  border-bottom: 2px solid #ff4081;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+  }
+  header div h1 {
+    font-size: 1.5rem;
+  }
+  header nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=imports.css.map */

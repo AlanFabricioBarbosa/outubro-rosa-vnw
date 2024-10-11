@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+
+    div h1 {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      display: none;
+    }
+  }
+}
