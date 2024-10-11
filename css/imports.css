@@ -132,20 +132,24 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  main {
-    height: 100vh;
-  }
   .about {
-    flex-direction: column;
+    height: 80vh;
   }
   .about p {
-    border: 2px solid;
-    width: 100vw;
+    width: 90vw;
+    line-height: normal;
   }
-  .awareness {
+  .about img {
     display: none;
   }
-  .tips {
+  .awareness {
+    height: 65vh;
+  }
+  .awareness p {
+    width: 90vw;
+    line-height: normal;
+  }
+  .awareness img {
     display: none;
   }
 }
