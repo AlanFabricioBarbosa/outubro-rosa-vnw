@@ -13,8 +13,30 @@
 }
 
 @media (max-width: 768px) {
+  main {
+    height: 100vh;
+  }
+
+  .about {
+    flex-direction: column;
+    p {
+      border: 2px solid;
+      width: 100vw;
+    }
+  }
+
+  .awareness {
+    display: none;
+  }
+
+  .tips {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
   footer {
-    height: 27vh;
+    height: 32vh;
     flex-direction: column-reverse;
   }
 
