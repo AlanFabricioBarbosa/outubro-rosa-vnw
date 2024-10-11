@@ -130,6 +130,7 @@ table {
 }
 
 body {
+  background-color: #ffd9ec;
   font-family: "Noto Sans Anatolian Hieroglyphs", sans-serif;
 }
 
@@ -170,6 +171,20 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   border-bottom: 2px solid #ff4081;
+}
+
+main .about {
+  border: 2px solid;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .about p {
+  width: 45vw;
+  font-size: 1.56rem;
+  font-weight: 400;
+  line-height: 2.12rem;
 }
 
 @media (max-width: 768px) {
