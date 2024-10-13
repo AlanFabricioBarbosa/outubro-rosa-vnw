@@ -93,6 +93,7 @@ header {
 .tips {
   height: 40vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -151,6 +152,12 @@ footer {
   }
   .awareness img {
     display: none;
+  }
+  .tips {
+    height: auto;
+  }
+  .tips img {
+    max-width: 48%;
   }
 }
 @media (max-width: 768px) {
