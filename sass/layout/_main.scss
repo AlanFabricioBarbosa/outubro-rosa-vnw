@@ -1,40 +1,27 @@
 .about {
   height: 45vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  @include display-config-space-evenly;
 
   p {
     color: #000000;
-    width: 40vw;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.6rem;
+    width: 45%;
+    @include text-main;
   }
 }
 
 .awareness {
   background-color: #ff69b4;
   height: 35vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  @include display-config-space-evenly;
 
   p {
-    width: 40vw;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.6rem;
+    color: #e4eef1;
+    width: 45%;
+    @include text-main;
   }
 }
 
 .tips {
   height: 40vh;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
+  @include display-config-space-evenly;
 }

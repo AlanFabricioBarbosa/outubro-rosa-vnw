@@ -9,10 +9,7 @@ footer {
 
 .social-container {
   width: 12vw;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  @include display-config-space-evenly;
 }
 
 .info-container {
