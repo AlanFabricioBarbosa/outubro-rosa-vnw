@@ -24,4 +24,5 @@
 .tips {
   height: 40vh;
   @include display-config-space-evenly;
+  flex-wrap: wrap;
 }
