@@ -152,6 +152,9 @@ footer {
   .tips {
     height: 50%;
   }
+  .tips img {
+    width: 48%;
+  }
   .social-container img {
     width: 8vw;
   }
