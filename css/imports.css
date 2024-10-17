@@ -34,12 +34,11 @@ header {
 .title-container h1 {
   color: #e4eef1;
   text-transform: uppercase;
-  font-size: clamp(1rem, 2vw, 1.75rem);
+  font-size: 1.4vw;
 }
 
 .nav-container {
   width: 75vw;
-  height: 7vh;
 }
 .nav-container ul {
   height: 100%;
@@ -51,7 +50,7 @@ header {
   color: #e4eef1;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: clamp(1rem, 2vw, 1.75rem);
+  font-size: 1.4vw;
   line-height: 2.38rem;
   position: relative;
   overflow: hidden;
@@ -71,7 +70,7 @@ header {
 .about p {
   color: #000000;
   width: 45%;
-  font-size: 1.5rem;
+  font-size: 1.3vw;
   font-weight: 400;
   line-height: 2.6rem;
 }
@@ -86,7 +85,7 @@ header {
 .awareness p {
   color: #e4eef1;
   width: 45%;
-  font-size: 1.5rem;
+  font-size: 1.3vw;
   font-weight: 400;
   line-height: 2.6rem;
 }
@@ -101,7 +100,7 @@ header {
 
 footer {
   background-color: #ff69b4;
-  height: 15.6vh;
+  height: 15vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -122,52 +121,146 @@ footer {
   line-height: 1.7rem;
 }
 
-@media (max-width: 768px) {
-  header {
-    height: 15vh;
+@media (max-width: 576px) {
+  .title-container {
+    width: 100%;
+    justify-content: center;
   }
-  header .title-container h1 {
-    font-size: 2rem;
+  .title-container h1 {
+    font-size: 5vw;
   }
-  header .nav-container {
+  .nav-container {
     display: none;
   }
   .about {
-    height: 80vh;
+    height: 50%;
   }
   .about p {
-    width: 90vw;
-    line-height: normal;
+    width: 85%;
+    font-size: 3vw;
   }
   .about img {
     display: none;
   }
-  .awareness {
-    height: 65vh;
-  }
   .awareness p {
-    width: 90vw;
-    line-height: normal;
+    width: 85%;
+    font-size: 3vw;
   }
   .awareness img {
     display: none;
   }
   .tips {
+    height: 50%;
+  }
+  .social-container img {
+    width: 8vw;
+  }
+  .info-container {
+    font-size: 2vw;
+  }
+  .pink-october-img-container img {
+    width: 12vw;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  header {
+    height: 15vh;
+  }
+  header .title-container h1 {
+    font-size: 5vw;
+  }
+  header .nav-container {
+    display: none;
+  }
+  .about p {
+    width: 55%;
+    font-size: 2.8vw;
+    line-height: normal;
+  }
+  .about img {
+    width: 40vw;
+    border-radius: 10%;
+  }
+  .awareness {
+    height: 40vh;
+  }
+  .awareness p {
+    width: 55%;
+    font-size: 2.9vw;
+    line-height: normal;
+  }
+  .awareness img {
+    width: 40vw;
+    border-radius: 5%;
+  }
+  .tips {
     height: auto;
   }
-  .tips img {
-    max-width: 48%;
+  .social-container img {
+    width: 7vw;
   }
-  footer {
-    height: 32vh;
-    flex-direction: column-reverse;
+  .info-container {
+    font-size: 2.2vw;
   }
-  .social-container {
-    margin-top: 10px;
-    width: 100vw;
+  .pink-october-img-container img {
+    width: 12vw;
   }
-  .pink-october-img-container {
-    display: none;
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .title-container {
+    width: 50%;
+    justify-content: center;
+  }
+  .title-container h1 {
+    font-size: 3vw;
+  }
+  .nav-container .nav-content a {
+    font-size: 2.5vw;
+  }
+  .about p {
+    width: 50%;
+    font-size: 2vw;
+  }
+  .about img {
+    width: 30vw;
+    border-radius: 5%;
+  }
+  .awareness p {
+    width: 50%;
+    font-size: 2vw;
+  }
+  .awareness img {
+    width: 30vw;
+    border-radius: 2%;
+  }
+  .tips {
+    height: auto;
+  }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+  .title-container {
+    width: 40%;
+    justify-content: center;
+  }
+  .title-container h1 {
+    font-size: 2vw;
+  }
+  .nav-container .nav-content li a {
+    font-size: 2vw;
+  }
+  .about p {
+    font-size: 2vw;
+  }
+  .about img {
+    width: 25vw;
+    border-radius: 5%;
+  }
+  .awareness p {
+    font-size: 1.7vw;
+  }
+  .awareness img {
+    width: 30vw;
+    border-radius: 5%;
   }
 }
 

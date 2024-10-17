@@ -14,13 +14,12 @@ header {
   h1 {
     color: #e4eef1;
     text-transform: uppercase;
-    font-size: clamp(1rem, 2vw, 1.75rem);
+    font-size: 1.4vw;
   }
 }
 
 .nav-container {
   width: 75vw;
-  height: 7vh;
 
   ul {
     height: 100%;
@@ -30,7 +29,7 @@ header {
       color: #e4eef1;
       text-transform: uppercase;
       text-decoration: none;
-      font-size: clamp(1rem, 2vw, 1.75rem);
+      font-size: 1.4vw;
       line-height: 2.38rem;
       @include border-bottom-to-right(0.8s, 2px, #e4eef1);
     }
