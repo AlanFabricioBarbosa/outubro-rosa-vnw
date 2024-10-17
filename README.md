@@ -29,5 +29,7 @@ O desafio foi desenvolvido utilizando HTML e SASS, seguindo boas práticas de co
 
 
 ## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alanfabriciodev/)
+<a href="https://www.linkedin.com/in/alanfabriciodev/" target="_blank">
+  <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin">
+</a>
 
